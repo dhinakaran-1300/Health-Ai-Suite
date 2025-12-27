@@ -1,0 +1,57 @@
+﻿Table_Heading,Explanatory Name,modified_as_column_name
+SNO, Serial Number,serial_no
+MRD No., Admission Number,admission_no
+D.O.A, Date of Admission,date_of_admission
+D.O.D, Date of Discharge,date_of_discharge
+AGE, Patient Age,age
+GENDER, Patient Gender,gender
+RURAL, Residence Type (Rural/Urban),residence_type
+TYPE OF ADMISSION-EMERGENCY/OPD, Type of Admission,admission_type
+month year, Admission Month and Year,admission_month_year
+DURATION OF STAY, Total Hospital Stay in Days,length_of_stay_days
+duration of intensive unit stay, ICU Stay Duration in Days,icu_stay_days
+OUTCOME, Patient Outcome (Discharge/Expiry),outcome
+SMOKING,Smoking Status,smoking_status
+ALCOHOL, Alcohol Consumption Status,alcohol_use
+DM, Diabetes Mellitus,diabetes_mellitus
+HTN, Hypertension,hypertension
+CAD, Coronary Artery Disease,coronary_artery_disease
+PRIOR CMP, Prior Cardiomyopathy,prior_cardiomyopathy
+CKD, Chronic Kidney Disease,chronic_kidney_disease
+HB, Hemoglobin Level,hemoglobin
+TLC, Total Leukocyte Count,total_leukocyte_count
+PLATELETS, Platelet Count,platelet_count
+GLUCOSE, Blood Glucose Level,glucose_level
+UREA, Blood Urea Level,urea_level
+CREATININE, Serum Creatinine Level,creatinine_level
+BNP, B-Type Natriuretic Peptide Level,bnp_level
+RAISED CARDIAC ENZYMES, Elevated Cardiac Enzymes Indicator,raised_cardiac_enzymes
+EF, Ejection Fraction Percentage,ejection_fraction
+SEVERE ANAEMIA, Severe Anemia Indicator,severe_anemia
+ANAEMIA, Anemia Indicator,anemia
+STABLE ANGINA, Stable Angina Diagnosis,stable_angina
+ACS, Acute Coronary Syndrome,acute_coronary_syndrome
+STEMI, ST Elevation Myocardial Infarction,st_elevation_myocardial_infarction
+ATYPICAL CHEST PAIN, Atypical Chest Pain Diagnosis,atypical_chest_pain
+HEART FAILURE, Heart Failure Diagnosis,heart_failure
+HFREF, Heart Failure with Reduced Ejection Fraction,hf_reduced_ejection_fraction
+HFNEF, Heart Failure with Normal Ejection Fraction,hf_normal_ejection_fraction
+VALVULAR, Valvular Heart Disease,valvular_heart_disease
+CHB, Complete Heart Block,complete_heart_block
+SSS, Sick Sinus Syndrome,sick_sinus_syndrome
+AKI, Acute Kidney Injury,acute_kidney_injury
+CVA INFRACT, Cerebrovascular Accident (Infarct),cva_infarct
+CVA BLEED, Cerebrovascular Accident (Bleed),cva_bleed
+AF, Atrial Fibrillation,atrial_fibrillation
+VT, Ventricular Tachycardia,ventricular_tachycardia
+PSVT, Paroxysmal Supraventricular Tachycardia,paroxysmal_supraventricular_tachycardia
+CONGENITAL, Congenital Heart Disease,congenital_heart_disease
+UTI, Urinary Tract Infection,urinary_tract_infection
+NEURO CARDIOGENIC SYNCOPE, Neurocardiogenic Syncope,neurocardiogenic_syncope
+ORTHOSTATIC, Orthostatic Hypotension,orthostatic_hypotension
+INFECTIVE ENDOCARDITIS, Infective Endocarditis,infective_endocarditis
+DVT, Deep Vein Thrombosis,deep_vein_thrombosis
+CARDIOGENIC SHOCK, Cardiogenic Shock,cardiogenic_shock
+SHOCK, Shock,shock
+PULMONARY EMBOLISM, Pulmonary Embolism,pulmonary_embolism
+CHEST INFECTION, Chest Infection,chest_infection
