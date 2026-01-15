@@ -1,57 +1,57 @@
-﻿Table_Heading,Explanatory Name,modified_as_column_name
-SNO, Serial Number,serial_no
-MRD No., Admission Number,admission_no
-D.O.A, Date of Admission,date_of_admission
-D.O.D, Date of Discharge,date_of_discharge
-AGE, Patient Age,age
-GENDER, Patient Gender,gender
-RURAL, Residence Type (Rural/Urban),residence_type
-TYPE OF ADMISSION-EMERGENCY/OPD, Type of Admission,admission_type
-month year, Admission Month and Year,admission_month_year
-DURATION OF STAY, Total Hospital Stay in Days,length_of_stay_days
-duration of intensive unit stay, ICU Stay Duration in Days,icu_stay_days
-OUTCOME, Patient Outcome (Discharge/Expiry),outcome
-SMOKING,Smoking Status,smoking_status
-ALCOHOL, Alcohol Consumption Status,alcohol_use
-DM, Diabetes Mellitus,diabetes_mellitus
-HTN, Hypertension,hypertension
-CAD, Coronary Artery Disease,coronary_artery_disease
-PRIOR CMP, Prior Cardiomyopathy,prior_cardiomyopathy
-CKD, Chronic Kidney Disease,chronic_kidney_disease
-HB, Hemoglobin Level,hemoglobin
-TLC, Total Leukocyte Count,total_leukocyte_count
-PLATELETS, Platelet Count,platelet_count
-GLUCOSE, Blood Glucose Level,glucose_level
-UREA, Blood Urea Level,urea_level
-CREATININE, Serum Creatinine Level,creatinine_level
-BNP, B-Type Natriuretic Peptide Level,bnp_level
-RAISED CARDIAC ENZYMES, Elevated Cardiac Enzymes Indicator,raised_cardiac_enzymes
-EF, Ejection Fraction Percentage,ejection_fraction
-SEVERE ANAEMIA, Severe Anemia Indicator,severe_anemia
-ANAEMIA, Anemia Indicator,anemia
-STABLE ANGINA, Stable Angina Diagnosis,stable_angina
-ACS, Acute Coronary Syndrome,acute_coronary_syndrome
-STEMI, ST Elevation Myocardial Infarction,st_elevation_myocardial_infarction
-ATYPICAL CHEST PAIN, Atypical Chest Pain Diagnosis,atypical_chest_pain
-HEART FAILURE, Heart Failure Diagnosis,heart_failure
-HFREF, Heart Failure with Reduced Ejection Fraction,hf_reduced_ejection_fraction
-HFNEF, Heart Failure with Normal Ejection Fraction,hf_normal_ejection_fraction
-VALVULAR, Valvular Heart Disease,valvular_heart_disease
-CHB, Complete Heart Block,complete_heart_block
-SSS, Sick Sinus Syndrome,sick_sinus_syndrome
-AKI, Acute Kidney Injury,acute_kidney_injury
-CVA INFRACT, Cerebrovascular Accident (Infarct),cva_infarct
-CVA BLEED, Cerebrovascular Accident (Bleed),cva_bleed
-AF, Atrial Fibrillation,atrial_fibrillation
-VT, Ventricular Tachycardia,ventricular_tachycardia
-PSVT, Paroxysmal Supraventricular Tachycardia,paroxysmal_supraventricular_tachycardia
-CONGENITAL, Congenital Heart Disease,congenital_heart_disease
-UTI, Urinary Tract Infection,urinary_tract_infection
-NEURO CARDIOGENIC SYNCOPE, Neurocardiogenic Syncope,neurocardiogenic_syncope
-ORTHOSTATIC, Orthostatic Hypotension,orthostatic_hypotension
-INFECTIVE ENDOCARDITIS, Infective Endocarditis,infective_endocarditis
-DVT, Deep Vein Thrombosis,deep_vein_thrombosis
-CARDIOGENIC SHOCK, Cardiogenic Shock,cardiogenic_shock
-SHOCK, Shock,shock
-PULMONARY EMBOLISM, Pulmonary Embolism,pulmonary_embolism
-CHEST INFECTION, Chest Infection,chest_infection
+﻿Table_Heading,Explanatory Name,modified_as_column_name,Data Category,Data Type,Data Type Category
+SNO, Serial Number,serial_no,Identifier,Categorical,Nominal - Identifier
+MRD No., Admission Number,admission_no,Identifier,Categorical,Nominal - Identifier
+D.O.A, Date of Admission,date_of_admission,Date,Temporal,Date
+D.O.D, Date of Discharge,date_of_discharge,Date,Temporal,Date
+AGE, Patient Age,age,Demographic,Numarical,Continuous
+GENDER, Patient Gender,gender,Demographic,Categorical,Nominal - Binary
+RURAL, Residence Type (Rural/Urban),residence_type,Demographic,Categorical,Nominal - Binary
+TYPE OF ADMISSION-EMERGENCY/OPD, Type of Admission,admission_type,Admission / Care Pathway,Categorical,Nominal - Binary
+month year, Admission Month and Year,admission_month_year,Derived Date,Temporal,Date
+DURATION OF STAY, Total Hospital Stay in Days,length_of_stay_days,Outcome / Utilization,Numarical,Discrete
+duration of intensive unit stay, ICU Stay Duration in Days,icu_stay_days,Outcome / Utilization,Numarical,Discrete
+OUTCOME, Patient Outcome (Discharge/Expiry),outcome,Outcome,Categorical,Nominal - Multiclass
+SMOKING,Smoking Status,smoking_status,Lifestyle / Behavioral Risk,Categorical,Nominal - Binary
+ALCOHOL, Alcohol Consumption Status,alcohol_use,Lifestyle / Behavioral Risk,Categorical,Nominal - Binary
+DM, Diabetes Mellitus,diabetes_mellitus,Chronic Disease / Comorbidity,Categorical,Nominal - Binary
+HTN, Hypertension,hypertension,Chronic Disease / Comorbidity,Categorical,Nominal - Binary
+CAD, Coronary Artery Disease,coronary_artery_disease,Chronic Disease / Comorbidity,Categorical,Nominal - Binary
+PRIOR CMP, Prior Cardiomyopathy,prior_cardiomyopathy,Chronic Disease / Comorbidity,Categorical,Nominal - Binary
+CKD, Chronic Kidney Disease,chronic_kidney_disease,Chronic Disease / Comorbidity,Categorical,Nominal - Binary
+HB, Hemoglobin Level,hemoglobin,Laboratory – Hematology,Numarical,Continuous
+TLC, Total Leukocyte Count,total_leukocyte_count,Laboratory – Hematology,Numarical,Continuous
+PLATELETS, Platelet Count,platelet_count,Laboratory – Hematology,Numarical,Continuous
+GLUCOSE, Blood Glucose Level,glucose_level,Laboratory – Biochemistry,Numarical,Continuous
+UREA, Blood Urea Level,urea_level,Laboratory – Renal,Numarical,Continuous
+CREATININE, Serum Creatinine Level,creatinine_level,Laboratory – Renal,Numarical,Continuous
+BNP, B-Type Natriuretic Peptide Level,bnp_level,Laboratory – Cardiac Biomarker,Numarical,Continuous
+RAISED CARDIAC ENZYMES, Elevated Cardiac Enzymes Indicator,raised_cardiac_enzymes,Laboratory – Cardiac Biomarker,Categorical,Nominal - Binary
+EF, Ejection Fraction Percentage,ejection_fraction,Cardiac Function Indicator,Numarical,Continuous
+SEVERE ANAEMIA, Severe Anemia Indicator,severe_anemia,Diagnosis – Hematological,Categorical,Nominal - Binary
+ANAEMIA, Anemia Indicator,anemia,Diagnosis – Hematological,Categorical,Nominal - Binary
+STABLE ANGINA, Stable Angina Diagnosis,stable_angina,Diagnosis – Ischemic Heart Disease,Categorical,Nominal - Binary
+ACS, Acute Coronary Syndrome,acute_coronary_syndrome,Diagnosis – Ischemic Heart Disease,Categorical,Nominal - Binary
+STEMI, ST Elevation Myocardial Infarction,st_elevation_myocardial_infarction,Diagnosis – Ischemic Heart Disease,Categorical,Nominal - Binary
+ATYPICAL CHEST PAIN, Atypical Chest Pain Diagnosis,atypical_chest_pain,Diagnosis – Cardiac Symptoms,Categorical,Nominal - Binary
+HEART FAILURE, Heart Failure Diagnosis,heart_failure,Diagnosis – Heart Failure,Categorical,Nominal - Binary
+HFREF, Heart Failure with Reduced Ejection Fraction,hf_reduced_ejection_fraction,Diagnosis – Heart Failure Subtype,Categorical,Nominal - Binary
+HFNEF, Heart Failure with Normal Ejection Fraction,hf_normal_ejection_fraction,Diagnosis – Heart Failure Subtype,Categorical,Nominal - Binary
+VALVULAR, Valvular Heart Disease,valvular_heart_disease,Diagnosis – Structural Heart Disease,Categorical,Nominal - Binary
+CHB, Complete Heart Block,complete_heart_block,Diagnosis – Conduction Disorder,Categorical,Nominal - Binary
+SSS, Sick Sinus Syndrome,sick_sinus_syndrome,Diagnosis – Conduction Disorder,Categorical,Nominal - Binary
+AKI, Acute Kidney Injury,acute_kidney_injury,Diagnosis – Acute Renal,Categorical,Nominal - Binary
+CVA INFRACT, Cerebrovascular Accident (Infarct),cva_infarct,Diagnosis – Neurological,Categorical,Nominal - Binary
+CVA BLEED, Cerebrovascular Accident (Bleed),cva_bleed,Diagnosis – Neurological,Categorical,Nominal - Binary
+AF, Atrial Fibrillation,atrial_fibrillation,Diagnosis – Arrhythmia,Categorical,Nominal - Binary
+VT, Ventricular Tachycardia,ventricular_tachycardia,Diagnosis – Arrhythmia,Categorical,Nominal - Binary
+PSVT, Paroxysmal Supraventricular Tachycardia,paroxysmal_supraventricular_tachycardia,Diagnosis – Arrhythmia,Categorical,Nominal - Binary
+CONGENITAL, Congenital Heart Disease,congenital_heart_disease,Diagnosis – Congenital,Categorical,Nominal - Binary
+UTI, Urinary Tract Infection,urinary_tract_infection,Diagnosis – Infectious,Categorical,Nominal - Binary
+NEURO CARDIOGENIC SYNCOPE, Neurocardiogenic Syncope,neurocardiogenic_syncope,Diagnosis – Autonomic,Categorical,Nominal - Binary
+ORTHOSTATIC, Orthostatic Hypotension,orthostatic_hypotension,Diagnosis – Autonomic,Categorical,Nominal - Binary
+INFECTIVE ENDOCARDITIS, Infective Endocarditis,infective_endocarditis,Diagnosis – Infectious,Categorical,Nominal - Binary
+DVT, Deep Vein Thrombosis,deep_vein_thrombosis,Diagnosis – Thromboembolic,Categorical,Nominal - Binary
+CARDIOGENIC SHOCK, Cardiogenic Shock,cardiogenic_shock,Diagnosis – Critical Care,Categorical,Nominal - Binary
+SHOCK, Shock,shock,Diagnosis – Critical Care,Categorical,Nominal - Binary
+PULMONARY EMBOLISM, Pulmonary Embolism,pulmonary_embolism,Diagnosis – Thromboembolic,Categorical,Nominal - Binary
+CHEST INFECTION, Chest Infection,chest_infection,Diagnosis – Infectious,Categorical,Nominal - Binary

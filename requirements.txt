@@ -1,0 +1,49 @@
+# pip install -r requirements.txt
+
+
+# Core
+numpy
+pandas
+scipy
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Deep Learning
+tensorflow
+torch
+torchvision
+
+# NLP
+nltk
+scikit-learn
+
+# Image Processing
+opencv-python
+Pillow
+
+# API
+fastapi
+uvicorn
+
+# Frontend
+streamlit
+streamlit-option-menu
+
+# Data Handling
+openpyxl
+xlrd
+
+# Visualization
+matplotlib
+seaborn
+
+# Notebook & Documentation
+jupyter
+nbconvert
+pygments
+
+# Utilities
+requests
+python-multipart

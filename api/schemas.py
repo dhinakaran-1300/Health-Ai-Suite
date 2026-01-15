@@ -1,0 +1,11 @@
+from pydantic import BaseModel
+from typing import List
+
+class TabularInput(BaseModel):
+    features: List[float]
+
+class TextInput(BaseModel):
+    text: str
+
+class SequenceInput(BaseModel):
+    sequence: List[List[float]]
