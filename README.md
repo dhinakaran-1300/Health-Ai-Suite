@@ -189,7 +189,7 @@ The HealthAI Suite demonstrates how machine learning and deep learning technique
 ---
 
 For detailed information, please refer to the project documentation.
-Path: 
+Path: https://github.com/dhinakaran-1300/Health-Ai-Suite/blob/main/documents/Health%20AI%20Suite.docx
 
 ## 13. Author
 **HealthAI Project**
