@@ -34,6 +34,90 @@ with st.sidebar:
 
 menu = selected
 
+# HOME PAGE
+if menu == "Home":
+
+    st.title("🏥 HealthAI Prediction Suite")
+    st.markdown("### AI-Powered Clinical Decision Support Platform")
+
+    st.divider()
+
+    # Intro Section
+    col1, col2 = st.columns([2, 1])
+
+    with col1:
+        st.markdown("""
+        Welcome to **HealthAI Prediction Suite**, an integrated healthcare AI platform designed to assist in:
+
+        ✔ Patient risk prediction  
+        ✔ Hospital resource planning  
+        ✔ Disease diagnosis  
+        ✔ Patient monitoring  
+        ✔ Clinical analytics  
+
+        Use the **sidebar** to navigate between modules.
+        """)
+
+    with col2:
+        with st.container(border=True):
+            st.subheader("System Status")
+
+            try:
+                r = requests.get(API_BASE_URL, timeout=3)
+                st.success("API Server: Running")
+            except:
+                st.error("API Server: Offline")
+
+            st.info("Model Services Ready")
+
+    st.divider()
+
+    # Features Section
+    st.subheader("Available AI Modules")
+
+    f1, f2, f3 = st.columns(3)
+
+    with f1:
+        with st.container(border=True):
+            st.markdown("### ❤️ Risk Stratification")
+            st.caption("Predict patient health risk level from clinical data.")
+
+        with st.container(border=True):
+            st.markdown("### ⏱ Length of Stay")
+            st.caption("Estimate hospital stay duration.")
+
+    with f2:
+        with st.container(border=True):
+            st.markdown("### 👥 Patient Segmentation")
+            st.caption("Cluster patients based on clinical characteristics.")
+
+        with st.container(border=True):
+            st.markdown("### 🧠 Imaging Diagnosis")
+            st.caption("AI-based medical image analysis.")
+
+    with f3:
+        with st.container(border=True):
+            st.markdown("### 📈 Sequence Monitoring")
+            st.caption("Real-time patient time-series risk prediction.")
+
+        with st.container(border=True):
+            st.markdown("### 💬 Sentiment Analysis")
+            st.caption("Analyze patient feedback sentiment.")
+
+    st.divider()
+
+    # How to use section
+    st.subheader("How to Use")
+    st.markdown("""
+    1. Select a module from the **left sidebar**
+    2. Enter patient data or upload files
+    3. Click prediction button
+    4. View AI results instantly
+    """)
+
+    st.info("Designed for research, clinical decision support, and healthcare analytics.")
+
+
 # 1. Risk Stratification
 if menu == "Risk Stratification":
     st.title("Risk Stratification")
