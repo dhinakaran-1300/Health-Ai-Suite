@@ -1,8 +1,9 @@
 import pickle
 import joblib
 import tensorflow as tf
+from pathlib import Path
 
-BASE_PATH = r"HealthAI\models" #Base path of the project
+BASE_PATH = Path(__file__).parent / "models"
 
 # 1. Risk Stratification
 with open(f"{BASE_PATH}/risk_stratification/risk_stratification_model.pkl", "rb") as f:    risk_model = pickle.load(f)
